@@ -1,0 +1,36 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 15px;
+  background: #eff6fa;
+  color: #000000;
+}
+.nav-item {
+  font-family: "joytix";
+}
+.slide {
+  text-align: center;
+}
+#slider-2 {
+  padding-bottom: 30px;
+}
+.item-menu {
+  color: #38b6ff !important;
+}
+.item-menu:hover {
+  color: #ff66c4 !important;
+}
