@@ -2,13 +2,16 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import product1 from "./img/produtos/000001.jpg";
+import product2 from "./img/produtos/000002.jpg";
+
 function App() {
   const generateProduct = () => {
     for (let i = 0; i < 5; i++) {
       return (
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
           <div class="card text-center bg-light">
-            <img src="img/produtos/000001.jpg" class="car-img-top" />
+            <img src={product1} class="car-img-top" />
             <div class="card-header">
               <b>R$: 4,50</b>
             </div>
@@ -191,7 +194,7 @@ function App() {
 
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
               <div class="card text-center bg-light">
-                <img src="img/produtos/000002.jpg" class="car-img-top" />
+                <img src={product2} class="car-img-top" />
                 <div class="card-header">
                   <b>R$: 4,50</b>
                 </div>
@@ -212,7 +215,7 @@ function App() {
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
               <div class="card text-center bg-light">
-                <img src="img/produtos/000001.jpg" class="car-img-top" />
+                <img src={product1} class="car-img-top" />
                 <div class="card-header">
                   <b>R$: 4,50</b>
                 </div>
@@ -233,7 +236,7 @@ function App() {
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
               <div class="card text-center bg-light">
-                <img src="img/produtos/000002.jpg" class="car-img-top" />
+                <img src={product2} class="car-img-top" />
                 <div class="card-header">
                   <b>R$: 4,50</b>
                 </div>
@@ -254,7 +257,7 @@ function App() {
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
               <div class="card text-center bg-light">
-                <img src="img/produtos/000001.jpg" class="car-img-top" />
+                <img src={product1} class="car-img-top" />
                 <div class="card-header">
                   <b>R$: 4,50</b>
                 </div>
@@ -275,7 +278,7 @@ function App() {
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
               <div class="card text-center bg-light">
-                <img src="img/produtos/000002.jpg" class="car-img-top" />
+                <img src={product2} class="car-img-top" />
                 <div class="card-header">
                   <b>R$: 4,50</b>
                 </div>
@@ -296,7 +299,7 @@ function App() {
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
               <div class="card text-center bg-light">
-                <img src="img/produtos/000001.jpg" class="car-img-top" />
+                <img src={product1} class="car-img-top" />
                 <div class="card-header">
                   <b>R$: 4,50</b>
                 </div>
@@ -317,7 +320,7 @@ function App() {
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
               <div class="card text-center bg-light">
-                <img src="img/produtos/000002.jpg" class="car-img-top" />
+                <img src={product2} class="car-img-top" />
                 <div class="card-header">
                   <b>R$: 4,50</b>
                 </div>
@@ -338,7 +341,7 @@ function App() {
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
               <div class="card text-center bg-light">
-                <img src="img/produtos/000001.jpg" class="car-img-top" />
+                <img src={product1} class="car-img-top" />
                 <div class="card-header">
                   <b>R$: 4,50</b>
                 </div>
@@ -359,7 +362,7 @@ function App() {
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
               <div class="card text-center bg-light">
-                <img src="img/produtos/000002.jpg" class="car-img-top" />
+                <img src={product2} class="car-img-top" />
                 <div class="card-header">
                   <b>R$: 4,50</b>
                 </div>
@@ -380,7 +383,7 @@ function App() {
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
               <div class="card text-center bg-light">
-                <img src="img/produtos/000001.jpg" class="car-img-top" />
+                <img src={product1} class="car-img-top" />
                 <div class="card-header">
                   <b>R$: 4,50</b>
                 </div>
@@ -401,7 +404,7 @@ function App() {
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mt-3">
               <div class="card text-center bg-light">
-                <img src="img/produtos/000002.jpg" class="car-img-top" />
+                <img src={product2} class="car-img-top" />
                 <div class="card-header">
                   <b>R$: 4,50</b>
                 </div>
