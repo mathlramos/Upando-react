@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Joytix";
+  font-size: 15px;
+  background: #eff6fa;
+  color: #000000;
+}
+.item-menu {
+  color: #38b6ff !important;
+}
+.item-menu:hover {
+  color: #ff66c4 !important;
+}
+
+.item-menu:active {
+  color: #ff66c4 !important;
+}
