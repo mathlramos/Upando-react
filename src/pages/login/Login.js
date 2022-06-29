@@ -9,8 +9,8 @@ function login() {
   const [email, setEmail] = React.useState();
   const [password, setPassword] = React.useState();
   const login = async () => {
-    const response = await api.post("/signin", { username: email, password });
-    console.log(response);
+    const { data } = await api.post("/signin", { username: email, password });
+    console.log(data);
   };
   return (
     <>
@@ -26,7 +26,7 @@ function login() {
                 onChange={(e) => setEmail(e.target.value)}
                 required
               />
-              <label for="">Email</label>
+              <label htmlFor="">Email</label>
             </div>
             <div className="form-control-custom">
               <input
@@ -35,7 +35,7 @@ function login() {
                 onChange={(e) => setPassword(e.target.value)}
                 required
               />
-              <label for="">Senha</label>
+              <label htmlFor="">Senha</label>
             </div>
             <button className="btn" onClick={login}>
               Entrar
